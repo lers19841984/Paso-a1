@@ -30,8 +30,8 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y python3-pip git
-          sudo pip install kivy-garden
-          garden install matplotlib
+          pip install kivy-garden
+          python3 -m garden install matplotlib
           mkdir -p kivy_garden/matplotlib
           cp -r .kivy/garden/garden.matplotlib/kivy_garden/matplotlib/* kivy_garden/matplotlib/
 
