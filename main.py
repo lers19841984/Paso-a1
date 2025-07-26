@@ -3,6 +3,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy_garden.matplotlib.backend_kivyagg import FigureCanvasKivyAgg
 from matplotlib.figure import Figure
 
+
 class MyLayout(BoxLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
